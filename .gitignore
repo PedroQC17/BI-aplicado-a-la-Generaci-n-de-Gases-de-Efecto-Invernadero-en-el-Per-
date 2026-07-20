@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pentaho / Spoon
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (csv, json, gzip) are tracked separately via DVC or just excluded
+EXTERNAL/
+
+# CommandCode workspace artifact
+.commandcode/
+
+# Jupyter
+.ipynb_checkpoints/
